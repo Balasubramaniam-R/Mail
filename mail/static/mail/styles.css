@@ -1,0 +1,58 @@
+textarea {
+    min-height: 300px;
+}
+.mail {
+    border: 0.3px lightgray solid;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.mail:hover {
+     cursor: pointer;
+     border-left: 1px;
+     border-right: 1px;
+     box-shadow: 0 0 11px #888888;
+     
+}
+
+#email span{
+  font-weight:500;
+}
+ 
+.card-header span{
+   font-size: medium;
+}
+
+
+ul > li > a {
+  color: white !important;
+  font-size: large !important;
+}
+
+.navbar-brand {
+  font-size: x-large;
+}
+
+
+.login-card {
+  margin-top: 15%;
+}
+
+
+
+.btns {
+  margin-left: 0;
+}
+
+/*
+.card {
+  border: 0;
+}*/
+
+@media screen and (min-width: 991px){
+  .pad {
+    padding-left: 7%;
+  }
+  
+}
+
